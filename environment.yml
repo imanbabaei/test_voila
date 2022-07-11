@@ -1,5 +1,11 @@
-voila>=0.1.8
-ipyvuetify>=0.1.9
-voila-vuetify>=0.0.1a6
-bqplot
-numpy
+name: test_voila
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - voila>=0.1.8
+  - ipyvuetify>=0.1.9
+  - voila-vuetify>=0.0.1a6
+  - bqplot
+  - numpy
